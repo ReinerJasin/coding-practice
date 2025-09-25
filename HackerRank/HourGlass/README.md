@@ -1,9 +1,9 @@
-# Problem Title
+# TwoSum
 
 Last Update: 25 September 2025
 
-![Status](https://img.shields.io/badge/Status-Solved-brightgreen)
-<!-- ![Status](https://img.shields.io/badge/Status-Unsolved-red) -->
+<!-- ![Status](https://img.shields.io/badge/Status-Solved-brightgreen) -->
+![Status](https://img.shields.io/badge/Status-Unsolved-red)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Average Time](https://img.shields.io/badge/Avg%20Time-5s-beige)
 ![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(1)-9cf)
