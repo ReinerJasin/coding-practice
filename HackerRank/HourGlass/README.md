@@ -1,4 +1,4 @@
-# TwoSum
+# HourGlass (HackerRank)
 
 Last Update: 25 September 2025
 
