@@ -3,10 +3,11 @@
 Last Update: 25 September 2025
 
 <!-- ![Status](https://img.shields.io/badge/Status-Solved-brightgreen) -->
-![Status](https://img.shields.io/badge/Status-Unsolved-brightred)
+![Status](https://img.shields.io/badge/Status-Unsolved-red)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
-![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(n)-orange)
-![Space Complexity](https://img.shields.io/badge/Space%20Complexity-O(1)-yellow)
+![Average Time](https://img.shields.io/badge/Avg%20Time-5s-beige)
+![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(1)-9cf)
+![Space Complexity](https://img.shields.io/badge/Space%20Complexity-O(1)-9cf)
 
 [Problem Link](URL_HERE)
 
