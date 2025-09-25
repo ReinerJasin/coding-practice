@@ -4,8 +4,8 @@
 
 *Number of problems solved:*
 
-[![HackerRank Problems Solved](https://img.shields.io/badge/HackerRank-0-2EC866?style=flat-square&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/your-hackerrank-username)
-[![LeetCode Problems Solved](https://img.shields.io/badge/LeetCode-0-orange?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/your-leetcode-username)
+[![HackerRank Problems Solved](https://img.shields.io/badge/HackerRank-0-2EC866?style=flat-square&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/reinerjasin)
+[![LeetCode Problems Solved](https://img.shields.io/badge/LeetCode-0-orange?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/reinerjasin/)
 
 This repository contains solutions to programming problems from platforms like **LeetCode** and **HackerRank**.  
 It is intended as a reference for learning, practice, and inspiration. Users can copy and use the solutions, but **attribution is required**.
