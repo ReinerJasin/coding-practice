@@ -1,10 +1,12 @@
 # Problem Title
 
-![Status](https://img.shields.io/badge/Status-Solved-brightgreen)
+Last Update: 25 September 2025
+
+<!-- ![Status](https://img.shields.io/badge/Status-Solved-brightgreen) -->
+![Status](https://img.shields.io/badge/Status-Unsolved-brightred)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(n)-orange)
 ![Space Complexity](https://img.shields.io/badge/Space%20Complexity-O(1)-yellow)
-![Last Update](https://img.shields.io/badge/Last%20Update-25--Sept--2025-lightgrey)
 
 [Problem Link](URL_HERE)
 
