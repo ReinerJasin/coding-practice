@@ -43,7 +43,7 @@ Explanation: <br/>
 ---
 
 ## Constraints
-$1 \leq a, b \leq 1000$
+$1 \leq a,\ b \leq 1000$
 
 ---
 
