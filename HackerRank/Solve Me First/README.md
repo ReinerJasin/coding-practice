@@ -10,18 +10,17 @@ Last Update: 27 September 2025
 ![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(1)-9cf)
 ![Space Complexity](https://img.shields.io/badge/Space%20Complexity-O(1)-9cf)
 
-[Problem Link](URL_HERE)
+[Problem Link](https://www.hackerrank.com/challenges/solve-me-first/problem)
 
 ---
 
 ## Description
 Complete the $solveMeFirst$ function with the following parameters:
+* $int\ a$: the first value
+* $int\ b$: the second value
 
-* $int a$: the first value
-* $int b$: the second value
 Returns
 - $int$: the sum of $a$ and $b$
-
 
 ---
 
@@ -61,7 +60,7 @@ Just follow the instruction in the code comment to `return a+b`.
 
 ## Implementation
 * Language: Python
-* See solution.py in this folder for the complete code.
+* See `solution.py` in this folder for the complete code.
 
 ---
 
@@ -78,4 +77,4 @@ List other ways you could have solved the problem:
 ---
 
 ## Lessons Learned (Optional)
-The problem is just a simple addition problem of a + b. This is just an example problem to teach programmer how to do code in HackerRank and how to submit them
+The problem is just a simple addition problem of a + b. This is just an example problem to teach programmer how to do code in HackerRank and how to submit the code and automatically run the test cases.
