@@ -1,10 +1,10 @@
 # Coding Practice Repository
 
-**Last Updated:** 25 September 2025
+**Last Updated:** 27 September 2025
 
 *Number of problems solved:*
 
-[![HackerRank Problems Solved](https://img.shields.io/badge/HackerRank-0-2EC866?style=flat-square&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/reinerjasin)
+[![HackerRank Problems Solved](https://img.shields.io/badge/HackerRank-1-2EC866?style=flat-square&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/reinerjasin)
 [![LeetCode Problems Solved](https://img.shields.io/badge/LeetCode-0-orange?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/reinerjasin/)
 
 This repository contains solutions to programming problems from platforms like **LeetCode** and **HackerRank**.  
