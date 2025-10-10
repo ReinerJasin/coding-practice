@@ -1,6 +1,6 @@
-# Left Rotation (README unfinished)
+# Left Rotation
 
-Last Update: 11 October 2025
+**Last Update:** 11 October 2025
 
 ![Status](https://img.shields.io/badge/Status-Solved-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -9,7 +9,11 @@ Last Update: 11 October 2025
 ![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(n)-9cf)
 ![Space Complexity](https://img.shields.io/badge/Space%20Complexity-O(n)-9cf)
 
-[Problem Link - HackerRank ↗](https://www.hackerrank.com/challenges/array-left-rotation/problem)
+<!-- [Problem Link - HackerRank ↗](https://www.hackerrank.com/challenges/array-left-rotation/problem) -->
+
+**Categories:** Data Structures > Arrays > Left Rotation
+
+<a href="https://www.hackerrank.com/challenges/array-left-rotation/problem" target="_blank">Problem Link - HackerRank ↗</a>
 
 ---
 
@@ -83,4 +87,4 @@ These are some alternate approaches to this problem:
 ---
 
 ## Lessons Learned
-Variable representation can be important, especially when it is used as a loop index.
+* Variable representation can be important, especially when it is used as a loop index.
