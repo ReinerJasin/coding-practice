@@ -13,7 +13,7 @@
 
 **Categories:** Data Structures > Arrays > Left Rotation
 
-<a href="https://www.hackerrank.com/challenges/array-left-rotation/problem" target="_blank">Problem Link - HackerRank ↗</a>
+<a href="https://www.hackerrank.com/challenges/array-left-rotation/problem" target="_blank" rel="noopener">Problem Link - HackerRank ↗</a>
 
 ---
 
