@@ -17,6 +17,7 @@ import sys
 
 def rotateLeft(d, arr):
     # Write your code here
+    d = d % len(arr)
     result = []
     i = d
     
