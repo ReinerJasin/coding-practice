@@ -1,34 +1,47 @@
 # Problem Title
 
-Last Update: 25 September 2025
-
 ![Status](https://img.shields.io/badge/Status-Solved-brightgreen)
-<!-- ![Status](https://img.shields.io/badge/Status-Unsolved-red) -->
+![Status](https://img.shields.io/badge/Status-Unsolved-red)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
-![Average Time](https://img.shields.io/badge/Avg%20Time-5s-beige)
-![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(1)-9cf)
-![Space Complexity](https://img.shields.io/badge/Space%20Complexity-O(1)-9cf)
+![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(n)-beige)
+![Space Complexity](https://img.shields.io/badge/Space%20Complexity-O(n)-9cf)
 
-[Problem Link](URL_HERE)
+## Problem Overview
+
+| Property | Details |
+|----------|---------|
+| **Last Updated** | 12 October 2025 |
+| **Difficulty** | 🟢 Easy |
+| **Language** | Python 3.0 |
+| **Category** | Data Structures → Arrays → Template |
+| **Source** | [HackerRank Problem ↗](https://www.paste-link-here) |
 
 ---
 
-## Description
-Briefly summarize the problem in your own words.  
-Include what the input is, what the output should be, and the main goal.
+## Problem Description
+(copy the paragraph explaining the problem from HackerRank)
+
+---
+
+## Function Description
+(copt the function description)
 
 ---
 
 ## Examples
 **Example 1**  
-Input:
+Input: <br/>
+```
 <example input here>
+```
 
-Output:
+Output: <br/>
+```
 <example output here>
+```
 
-Explanation:
-<optional explanation here>
+Explanation: <br/>
+example explanation here
 
 ---
 

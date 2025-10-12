@@ -1,24 +1,34 @@
 # Left Rotation
 
->**Last Updated:** 11 October 2025
-
 ![Status](https://img.shields.io/badge/Status-Solved-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
-
-![Average Time](https://img.shields.io/badge/Avg%20Time-0s-beige)
-![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(n)-9cf)
+![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(n)-beige)
 ![Space Complexity](https://img.shields.io/badge/Space%20Complexity-O(n)-9cf)
 
-<!-- [Problem Link - HackerRank ↗](https://www.hackerrank.com/challenges/array-left-rotation/problem) -->
+## Problem Overview
 
-**Categories:** Data Structures > Arrays > Left Rotation
-
-<a href="https://www.hackerrank.com/challenges/array-left-rotation/problem" target="_blank">Problem Link - HackerRank ↗</a>
+| Property | Details |
+|----------|---------|
+| **Last Updated** | 12 October 2025 |
+| **Difficulty** | 🟢 Easy |
+| **Language** | Python 3.0 |
+| **Category** | Data Structures → Arrays → Left Rotation |
+| **Source** | [HackerRank Problem ↗](https://www.hackerrank.com/challenges/array-left-rotation/problem) |
 
 ---
 
-## Description
-The Left Rotation problem wants us to shift the items inside a python array to the left by `d` positions. If an item at the left end fall off, it will reappear at the right end.
+## Problem Description
+A $left\ rotation$ operation on a circular array shifts each of the array's elements $1$ unit to the left. The elements that fall off the left end reappear at the right end. Given an integer $d$, rotate the array that many steps to the left and return the result.
+
+---
+
+## Function Description
+Complete the $rotateLeft$ function with the following parameters:
+* $int\ d$: the amount to rotate by
+* $int\ arr[n]$: the array to rotate
+
+Returns
+* $int\ [n]$: the rotated array
 
 ---
 
@@ -52,12 +62,12 @@ Explanation: <br/>
 #### 1. Loop and Append
 My idea is to loop through the array starting from the index `d`, and for each iteration I would append the item into a new array. When we finish the loop to the last item in the array, I will reset the index back to `0` and continue the loop until `d-1`.
 
-With this approach, I am able to pass the test case and submit the solution in HackerRank, but then I notice that one of the constraint is that `d = n` is one possible use case that is not included on HackerRank's test case. And since we're accessing the array by the index, we will notice that using the raw index will trigger the index out of bound error. Therefore, to keep things simple, I simply add modulo of `n` to make sure that the number will not exceed `n`, and having `n=n` would basically means we're not shifting by any value.
+With this approach, I am able to pass the test case and submit the solution in HackerRank, but then I notice that one of the constraint is that `d = n` is one possible use case that is not included on HackerRank's test case. And since we're accessing the array by the index, we will notice that using the raw index will trigger the index out of bound error. Therefore, to keep things simple, I simply add modulo of `n` to make sure that the number will not exceed `n`, and having `d=n` would basically means we're not shifting by any value.
 
 #### 2. Python Slicing
 This second solution is kind of tricky, and I wouldn't consider this as my solution although it only takes one line to solve this problem.
 
-The way we do this is just by slicing the array into two parts, and concat them starting from the array the begins with items of the index `d`. So instead of rotating it left by `d` times, we just jump straight to `d` and split the array in half before joining them back in the return and putting arr[d] at the very beginning. So I wouldn't take this as a solution, and I will just use the Solution 1 for this submission.
+The way we do this is just by slicing the array into two parts, and concatenate them starting from the array the begins with items of the index `d`. So instead of rotating it left by `d` times, we just jump straight to `d` and split the array in half before joining them back in the return and putting arr[d] at the very beginning. So I wouldn't take this as a solution, and I will just use the Solution 1 for this submission.
 
 ---
 
@@ -68,7 +78,7 @@ The way we do this is just by slicing the array into two parts, and concat them 
 ---
 
 ## Implementation
-* Language: Python 3
+* Language: Python 3.0
 * See `solution.py` in this folder for the complete code.
 
 ---
