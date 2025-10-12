@@ -1,6 +1,6 @@
 # Left Rotation
 
-**Last Update:** 11 October 2025
+>**Last Updated:** 11 October 2025
 
 ![Status](https://img.shields.io/badge/Status-Solved-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -13,7 +13,7 @@
 
 **Categories:** Data Structures > Arrays > Left Rotation
 
-<a href="https://www.hackerrank.com/challenges/array-left-rotation/problem" target="_blank" rel="noopener">Problem Link - HackerRank ↗</a>
+<a href="https://www.hackerrank.com/challenges/array-left-rotation/problem" target="_blank">Problem Link - HackerRank ↗</a>
 
 ---
 
