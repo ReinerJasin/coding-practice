@@ -10,8 +10,8 @@
 
 | Property | Details |
 |----------|---------|
-| **Last Updated** | 12 October 2025 |
-| **Difficulty** | 🟢 Easy |
+| **Last Updated** | 13 October 2025 |
+| **Difficulty** | 🟠 Medium |
 | **Language** | Python 3.0 |
 | **Category** | Data Structures → Arrays → Template |
 | **Source** | [HackerRank Problem ↗](https://www.hackerrank.com/challenges/magic-square-forming/problem) |
