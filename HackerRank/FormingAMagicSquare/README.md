@@ -1,4 +1,4 @@
-# Problem Title
+# Forming a Magic Square
 
 <!-- ![Status](https://img.shields.io/badge/Status-Solved-brightgreen) -->
 ![Status](https://img.shields.io/badge/Status-Unsolved-red)
@@ -13,7 +13,7 @@
 | **Last Updated** | 13 October 2025 |
 | **Difficulty** | 🟠 Medium |
 | **Language** | Python 3.0 |
-| **Category** | Data Structures → Arrays → Template |
+| **Category** | Algorithms → Implementation → Forming a Magic Square |
 | **Source** | [HackerRank Problem ↗](https://www.hackerrank.com/challenges/magic-square-forming/problem) |
 
 ---

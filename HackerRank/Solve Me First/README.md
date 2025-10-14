@@ -1,4 +1,4 @@
-# Problem Title
+# Solve Me First
 
 ![Status](https://img.shields.io/badge/Status-Solved-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -12,7 +12,7 @@
 | **Last Updated** | 12 October 2025 |
 | **Difficulty** | 🟢 Easy |
 | **Language** | Python 3.0 |
-| **Category** | Data Structures → Arrays → Left Rotation |
+| **Category** | Algorithms → Warmup → Solve Me First |
 | **Source** | [HackerRank Problem ↗](https://www.hackerrank.com/challenges/solve-me-first/problem) |
 
 ---

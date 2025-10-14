@@ -14,7 +14,7 @@
 | **Last Updated** | 12 October 2025 |
 | **Difficulty** | 🟢 Easy |
 | **Language** | Python 3.0 |
-| **Category** | Prepare → Algorithms → Warmup |
+| **Category** | Algorithms → Warmup → Compare the Triplets |
 | **Source** | [HackerRank Problem ↗](https://www.hackerrank.com/challenges/compare-the-triplets/problem) |
 
 ---
