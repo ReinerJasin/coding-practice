@@ -7,28 +7,56 @@ import re
 import sys
 
 #
-# Complete the 'hourglassSum' function below.
+# Complete the 'matchingStrings' function below.
 #
-# The function is expected to return an INTEGER.
-# The function accepts 2D_INTEGER_ARRAY arr as parameter.
+# The function is expected to return an INTEGER_ARRAY.
+# The function accepts following parameters:
+#  1. STRING_ARRAY stringList
+#  2. STRING_ARRAY queries
 #
 
-def hourglassSum(arr):
+def matchingStrings(stringList, queries):
     # Write your code here
-    max_sum = -float('inf')
-    for i in range(4):
-        for j in range(4):
-            s = arr[i][j] + arr[i][j+1] + arr[i][j+2] + \
-                arr[i+1][j+1] + \
-                arr[i+2][j] + arr[i+2][j+1] + arr[i+2][j+2]
-            max_sum = max(max_sum, s)
-    return max_sum
+    print(stringList)
+    print(queries)
+    
+    result = []
+    
+    for i in queries:
+        
+        found = 0
+        
+        for j in stringList:
+            
+            if i == j:
+                found += 1
+                
+        result.append(found)
+            
+    return result
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
-    arr = []
-    for _ in range(6):
-        arr.append(list(map(int, input().rstrip().split())))
-    result = hourglassSum(arr)
-    fptr.write(str(result) + '\n')
+
+    stringList_count = int(input().strip())
+
+    stringList = []
+
+    for _ in range(stringList_count):
+        stringList_item = input()
+        stringList.append(stringList_item)
+
+    queries_count = int(input().strip())
+
+    queries = []
+
+    for _ in range(queries_count):
+        queries_item = input()
+        queries.append(queries_item)
+
+    res = matchingStrings(stringList, queries)
+
+    fptr.write('\n'.join(map(str, res)))
+    fptr.write('\n')
+
     fptr.close()
