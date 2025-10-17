@@ -24,7 +24,7 @@
 ---
 
 ## Function Description
-(copt the function description)
+(copy the function description including returns)
 
 ---
 
