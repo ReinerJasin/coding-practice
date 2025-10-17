@@ -28,7 +28,7 @@ Complete the $rotateLeft$ function with the following parameters:
 * $int\ arr[n]$: the array to rotate
 
 Returns
-* $int\ [n]$: the rotated array
+* $int[n]$: the rotated array
 
 ---
 
