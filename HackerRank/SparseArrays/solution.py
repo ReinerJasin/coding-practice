@@ -17,17 +17,15 @@ import sys
 
 def matchingStrings(stringList, queries):
     # Write your code here
-    print(stringList)
-    print(queries)
+    # print(stringList)
+    # print(queries)
     
     result = []
     
     for i in queries:
-        
         found = 0
         
         for j in stringList:
-            
             if i == j:
                 found += 1
                 

@@ -3,7 +3,7 @@ import os
 import time
 import traceback
 import tracemalloc
-from solution import hourglassSum               # [TEMPLATE] CHANGE FUNCTION NAME HERE
+from solution import matchingStrings               # [TEMPLATE] CHANGE FUNCTION NAME HERE
 
 def run_tests():
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -24,7 +24,7 @@ def run_tests():
 
         try:
             # Direct function call for HackerRank style
-            result = hourglassSum(case["input"])                # [TEMPLATE] CHANGE FUNCTION NAME HERE
+            result = matchingStrings(case["input"]["stringList"], case["input"]["queries"])              # [TEMPLATE] CHANGE FUNCTION NAME HERE
             elapsed = time.time() - start_time
 
             current, peak = tracemalloc.get_traced_memory()

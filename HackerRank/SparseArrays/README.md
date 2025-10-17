@@ -1,7 +1,6 @@
 # Sparse Arrays
 
 ![Status](https://img.shields.io/badge/Status-Solved-brightgreen)
-![Status](https://img.shields.io/badge/Status-Unsolved-red)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(n)-beige)
 ![Space Complexity](https://img.shields.io/badge/Space%20Complexity-O(n)-9cf)
@@ -10,21 +9,26 @@
 
 | Property | Details |
 |----------|---------|
-| **Last Updated** | 16 October 2025 |
-| **Difficulty** | 🟢 Easy |
+| **Last Updated** | 17 October 2025 |
+| **Difficulty** | 🟠 Medium |
 | **Language** | Python 3.0 |
-| **Category** | Data Structures → Arrays → Template |
-| **Source** | [HackerRank Problem ↗](https://www.paste-link-here) |
+| **Category** | Data Structures → Arrays → Sparse Arrays |
+| **Source** | [HackerRank Problem ↗](https://www.hackerrank.com/challenges/sparse-arrays/problem) |
 
 ---
 
 ## Problem Description
-(copy the paragraph explaining the problem from HackerRank)
+There is a collection of input strings and a collection of query strings. For each query string, determine how many times it occurs in the list of input strings. Return an array of the results.
 
 ---
 
 ## Function Description
-(copt the function description)
+Complete the function $matchingStrings$ with the following parameters:
+* $string\ stringList[n]$: an array of strings to search
+* $string\ queries[q]$: an array of query strings
+
+Returns
+* $int[q]$: the results of each query
 
 ---
 
@@ -32,56 +36,63 @@
 **Example 1**  
 Input: <br/>
 ```
-<example input here>
+stringList = ['ab', 'ab', 'abc']
+queries = ['ab', 'abc', 'bc']
 ```
 
 Output: <br/>
 ```
-<example output here>
+[2,1,0]
 ```
 
 Explanation: <br/>
-example explanation here
+* 'ab' query appears 2 times in stringList
+* 'abc' query appears 1 time in stringList
+* 'bc' query appears 0 times in stringList
 
 ---
 
 ## Constraints
-* List any constraints here (e.g., input size, value ranges)
-* Example: 2 ≤ nums.length ≤ 10⁴, -10⁹ ≤ nums[i] ≤ 10⁹
+* $1 \leq n \leq 1000$
+* $1 \leq q \leq 1000$
+* $1 \leq |stringList[i]|,|queries[i]| \leq 20$
 
 ---
 
 ## My Approach
-Explain the thought process behind your solution:
-* Algorithm or data structure used
-* Any tricks or optimizations applied
+I utilized the most natural way to solve this problem, which is check each item in `queries` and check every item in the `stringList`. I made a counter to take account how many times that item appear in the list. every time the item appear, we just increment it by 1.
+
+We do this for each item in `queries`, so make sure to reset the counter back to 0 if we want to check new item.
+
+I am confident that this is not the most optimal solution, but this approach is the most intuitive approach that can be easily implemented by any programmers.
 
 ---
 
 ## Complexity Analysis
-* Time Complexity: O(n) or whatever fits your solution
-* Space Complexity: O(1) or whatever fits your solution
+* Time Complexity: `O(Q x n)`
+* Space Complexity: `O(n)`
 
 ---
 
 ## Implementation
-* Language: Python
-* See solution.py in this folder for the complete code.
+* Language: Python 3.0
+* See `solution.py` in this folder for the complete code.
 
 ---
 
-## Performance (Optional)
-* Runtime: X ms, beats Y% of submissions
-* Memory: Z MB, beats W% of submissions
+## Performance
+* Runtime: **0.0000s** per test
+* Memory: **0.03 KB** per test
+* HackerRank Score: **25.00** / 25.00
 
 ---
 
-## Alternate Approaches (Optional)
+<!-- ## Alternate Approaches (Optional)
 List other ways you could have solved the problem:
 * Brute force vs optimized solution
-* Trade-offs in complexity
+* Trade-offs in complexity -->
 
----
+<!-- --- -->
 
-## Lessons Learned (Optional)
-Key takeaways, mistakes made, or new techniques learned.
+<!-- ## Lessons Learned (Optional)
+Key takeaways, mistakes made, or new techniques learned. -->
