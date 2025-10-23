@@ -8,6 +8,7 @@ def count_solutions(base_dir):
     solved_count = 0
     unsolved_count = 0
     total_folders = 0
+    unsolved_list = []
 
     # List all subdirectories (excluding hidden folders like .template_folder)
     for folder in os.listdir(base_dir):
@@ -27,15 +28,16 @@ def count_solutions(base_dir):
 
             if "![Status](https://img.shields.io/badge/Status-Unsolved-red)" in content:
                 unsolved_count += 1
+                unsolved_list.append(folder)
             elif "![Status](https://img.shields.io/badge/Status-Solved-brightgreen)" in content:
                 solved_count += 1
             else:
                 print(f"[INFO] No status badge found in {folder_path}")
 
-    return solved_count, unsolved_count, total_folders
+    return solved_count, unsolved_count, total_folders, unsolved_list
 
 
-def main():
+def main(show_unsolved=False):
     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     hackerrank_dir = os.path.join(root_dir, "hackerrank")
     leetcode_dir = os.path.join(root_dir, "LeetCode")
@@ -51,16 +53,37 @@ def main():
             print(f"[ERROR] {category} directory not found at {path}")
             continue
 
-        solved, unsolved, total = count_solutions(path)
-        results[category] = (solved, unsolved, total)
+        solved, unsolved, total, unsolved_list = count_solutions(path)
+        results[category] = {
+            "solved": solved,
+            "unsolved": unsolved,
+            "total": total,
+            "unsolved_list": unsolved_list
+        }
 
+    # ===== SUMMARY =====
     print("\n============= SUMMARY =============")
-    for category, (solved, unsolved, total) in results.items():
+    for category, data in results.items():
+        solved = data["solved"]
+        unsolved = data["unsolved"]
+        total = data["total"]
         print(f"\n📘 {category}")
         print(f"Total problems attempted : {total}")
         print(f"Solved problems          : {solved}")
         print(f"Unsolved problems        : {unsolved}")
         print(f"Completion rate          : {(solved / total * 100 if total > 0 else 0):.1f}%")
+
+    # ===== UNSOLVED LIST =====
+    if show_unsolved:
+        print("\n============= UNSOLVED PROBLEMS =============")
+        for category, data in results.items():
+            unsolved_list = data["unsolved_list"]
+            if not unsolved_list:
+                print(f"\n✅ All {category} problems are solved!")
+            else:
+                print(f"\n❌ {category} Unsolved Problems:")
+                for item in sorted(unsolved_list):
+                    print(f"  • {item}")
 
     print("\n=========================================")
     print("Finished checking all solutions.")
@@ -68,4 +91,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # Change to True if you want to show the unsolved list at the end
+    main(show_unsolved=True)
