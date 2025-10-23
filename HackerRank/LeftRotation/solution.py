@@ -18,7 +18,7 @@ import sys
 def rotateLeft(d, arr):
     # Write your code here
 
-    # Solution-1  -  loop through and append
+    # Solution 1  -  loop through and append
     d = d % len(arr)
     result = []
     i = d
@@ -30,7 +30,7 @@ def rotateLeft(d, arr):
         if i==len(arr):
             i=0
 
-    # Solution-2  -  python array slicing
+    # Solution 2  -  python array slicing
     # d = d % len(arr)
     # result = arr[d:] + arr[:d]
 
