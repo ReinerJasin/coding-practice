@@ -4,7 +4,7 @@
 
 *Number of problems solved:*
 
-[![HackerRank Problems Solved](https://img.shields.io/badge/HackerRank-4-2EC866?style=flat-square&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/reinerjasin)
+[![HackerRank Problems Solved](https://img.shields.io/badge/HackerRank-5-2EC866?style=flat-square&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/reinerjasin)
 [![LeetCode Problems Solved](https://img.shields.io/badge/LeetCode-0-orange?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/reinerjasin/)
 
 This repository contains solutions to programming problems from platforms like **LeetCode** and **HackerRank**.  
