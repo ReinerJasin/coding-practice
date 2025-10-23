@@ -1,4 +1,4 @@
-# Compare the Triplets
+# Compare the Triplets (README IN PROGRESS)
 
 ![Status](https://img.shields.io/badge/Status-Solved-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Python-blue)

@@ -1,4 +1,4 @@
-# Forming a Magic Square
+# Forming a Magic Square (CODE & README IN PROGRESS)
 
 <!-- ![Status](https://img.shields.io/badge/Status-Solved-brightgreen) -->
 ![Status](https://img.shields.io/badge/Status-Unsolved-red)
