@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Solved-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
-![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(n)-beige)
+![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(Qxn)-beige)
 ![Space Complexity](https://img.shields.io/badge/Space%20Complexity-O(n)-9cf)
 
 ## Problem Overview

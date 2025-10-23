@@ -1,9 +1,9 @@
-# Compare the Triplets (README IN PROGRESS)
+# Compare the Triplets
 
 ![Status](https://img.shields.io/badge/Status-Solved-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
-![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(n)-beige)
-![Space Complexity](https://img.shields.io/badge/Space%20Complexity-O(n)-9cf)
+<!-- ![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(n)-beige)
+![Space Complexity](https://img.shields.io/badge/Space%20Complexity-O(n)-9cf) -->
 
 > README is still under development. This alert will be removed when it is finished.
 
