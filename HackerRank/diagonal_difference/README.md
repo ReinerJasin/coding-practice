@@ -1,22 +1,21 @@
-# Problem Title
+# Diagonal Difference
 
 ![Status](https://img.shields.io/badge/Status-Solved-brightgreen)
-![Status](https://img.shields.io/badge/Status-Unsolved-red)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(n)-beige)
 ![Space Complexity](https://img.shields.io/badge/Space%20Complexity-O(n)-9cf)
 
-<!-- > README is still under development. This alert will be removed when it is finished. -->
+> README is still under development. This alert will be removed when it is finished.
 
 ## Problem Overview
 
 | Property | Details |
 |----------|---------|
-| **Last Updated** | 12 October 2025 |
+| **Last Updated** | 26 October 2025 |
 | **Difficulty** | 🟢 Easy |
 | **Language** | Python 3.0 |
 | **Category** | Data Structures → Arrays → Template |
-| **Source** | [HackerRank Problem ↗](https://www.paste-link-here) |
+| **Source** | [HackerRank Problem ↗](https://www.hackerrank.com/challenges/diagonal-difference/problem) |
 
 ---
 
