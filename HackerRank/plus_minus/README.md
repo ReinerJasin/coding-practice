@@ -1,7 +1,6 @@
 # Plus Minus
 
 ![Status](https://img.shields.io/badge/Status-Solved-brightgreen)
-![Status](https://img.shields.io/badge/Status-Unsolved-red)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(n)-beige)
 ![Space Complexity](https://img.shields.io/badge/Space%20Complexity-O(n)-9cf)
