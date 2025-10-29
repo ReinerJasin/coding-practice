@@ -1,0 +1,15 @@
+[
+  {
+    "input": "07:05:45PM",
+    "expected": "19:05:45"
+  },
+  { "input": "12:00:00AM", "expected": "00:00:00" },
+  { "input": "12:00:00PM", "expected": "12:00:00" },
+  { "input": "01:05:45PM", "expected": "13:05:45" },
+  { "input": "11:59:59PM", "expected": "23:59:59" },
+  { "input": "12:45:54AM", "expected": "00:45:54" },
+  { "input": "04:59:59PM", "expected": "16:59:59" },
+  { "input": "11:00:00AM", "expected": "11:00:00" },
+  { "input": "01:00:00AM", "expected": "01:00:00" },
+  { "input": "09:15:30PM", "expected": "21:15:30" }
+]
