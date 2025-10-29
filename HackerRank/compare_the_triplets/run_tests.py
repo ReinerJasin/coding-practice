@@ -28,14 +28,14 @@ def run_tests():
             ### [TEMPLATE] CHANGE FUNCTION NAME HERE
             result = compareTriplets(case["input"]["a"], case["input"]["b"])           
             ### [TEMPLATE] ENDS HERE
-              
+            
             elapsed = time.time() - start_time
 
             current, peak = tracemalloc.get_traced_memory()
             tracemalloc.stop()
 
             total_time += elapsed
-            total_memory =+ peak
+            total_memory += peak
 
             if result == case["expected"]:
                 print(f"Test {i}: PASS | Time: {elapsed:.4f}s | Peak Memory: {peak / 1024:.2f} KB")

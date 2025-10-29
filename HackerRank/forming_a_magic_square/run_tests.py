@@ -31,7 +31,7 @@ def run_tests():
             tracemalloc.stop()
 
             total_time += elapsed
-            total_memory =+ peak
+            total_memory += peak
 
             if result == case["expected"]:
                 print(f"Test {i}: PASS | Time: {elapsed:.4f}s | Peak Memory: {peak / 1024:.2f} KB")
