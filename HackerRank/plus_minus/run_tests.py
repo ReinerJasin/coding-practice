@@ -3,7 +3,9 @@ import os
 import time
 import traceback
 import tracemalloc
-from solution import plusMinus               # [TEMPLATE] CHANGE FUNCTION NAME HERE
+import io
+import sys
+from solution import plusMinus  # [TEMPLATE] CHANGE FUNCTION NAME HERE
 
 def run_tests():
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -23,27 +25,34 @@ def run_tests():
         tracemalloc.start()
 
         try:
-            # Direct function call for HackerRank style
-            result = plusMinus(case["input"])                # [TEMPLATE] CHANGE FUNCTION NAME HERE
-            elapsed = time.time() - start_time
+            # Capture print output
+            buffer = io.StringIO()
+            sys.stdout = buffer
 
+            plusMinus(case["input"])        # [TEMPLATE] CHANGE FUNCTION NAME HERE
+            printed_output = buffer.getvalue().strip()
+
+            sys.stdout = sys.__stdout__  # Restore stdout
+
+            elapsed = time.time() - start_time
             current, peak = tracemalloc.get_traced_memory()
             tracemalloc.stop()
 
             total_time += elapsed
-            total_memory =+ peak
+            total_memory += peak
 
-            if result == case["expected"]:
+            if str(printed_output) == str(case["expected"]):
                 print(f"Test {i}: PASS | Time: {elapsed:.4f}s | Peak Memory: {peak / 1024:.2f} KB")
             else:
                 failed_cases += 1
                 print(f"Test {i}: FAIL | Time: {elapsed:.4f}s | Peak Memory: {peak / 1024:.2f} KB")
                 print(f"  Input: {case['input']}")
-                print(f"  Result: {result}")
+                print(f"  Output (printed): {printed_output}")
                 print(f"  Expected: {case['expected']}")
                 print("-" * 50)
 
         except Exception as e:
+            sys.stdout = sys.__stdout__  # Ensure it's restored if error happens
             elapsed = time.time() - start_time
 
             current, peak = tracemalloc.get_traced_memory()

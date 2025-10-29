@@ -33,9 +33,9 @@ def plusMinus(arr):
         elif i == 0:
             zero += 1
     
-    print(high / n)
-    print(low / n)
-    print(zero / n)
+    print(f"{high / n:.6f}")
+    print(f"{low / n:.6f}")
+    print(f"{zero / n:.6f}")
         
 
 if __name__ == '__main__':
