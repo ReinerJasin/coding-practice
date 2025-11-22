@@ -1,7 +1,6 @@
-# Problem Title
+# Breaking the Records
 
 ![Status](https://img.shields.io/badge/Status-Solved-brightgreen)
-![Status](https://img.shields.io/badge/Status-Unsolved-red)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(n)-beige)
 ![Space Complexity](https://img.shields.io/badge/Space%20Complexity-O(n)-9cf)
@@ -12,11 +11,11 @@
 
 | Property | Details |
 |----------|---------|
-| **Last Updated** | 12 October 2025 |
+| **Last Updated** | 21 October 2025 |
 | **Difficulty** | 🟢 Easy |
 | **Language** | Python 3.0 |
-| **Category** | Data Structures → Arrays → Template |
-| **Source** | [HackerRank Problem ↗](https://www.paste-link-here) |
+| **Category** | Algorithms → Implementation → Breaking the Records |
+| **Source** | [HackerRank Problem ↗](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem) |
 
 ---
 
