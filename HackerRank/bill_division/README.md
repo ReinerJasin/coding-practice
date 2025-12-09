@@ -11,7 +11,7 @@
 
 | Property | Details |
 |----------|---------|
-| **Last Updated** | 12 October 2025 |
+| **Last Updated** | 9 December 2025 |
 | **Difficulty** | 🟢 Easy |
 | **Language** | Python 3.0 |
 | **Category** | Algorithms → Implementation → Bill Division |
