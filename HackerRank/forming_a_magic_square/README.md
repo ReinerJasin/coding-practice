@@ -1,7 +1,6 @@
-# Forming a Magic Square (CODE & README IN PROGRESS)
+# Forming a Magic Square
 
-<!-- ![Status](https://img.shields.io/badge/Status-Solved-brightgreen) -->
-![Status](https://img.shields.io/badge/Status-Unsolved-red)
+![Status](https://img.shields.io/badge/Status-Solved-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 <!-- ![Time Complexity](https://img.shields.io/badge/Time%20Complexity-O(n)-beige)
 ![Space Complexity](https://img.shields.io/badge/Space%20Complexity-O(n)-9cf) -->
@@ -12,7 +11,7 @@
 
 | Property | Details |
 |----------|---------|
-| **Last Updated** | 13 October 2025 |
+| **Last Updated** | 10 December 2025 |
 | **Difficulty** | 🟠 Medium |
 | **Language** | Python 3.0 |
 | **Category** | Algorithms → Implementation → Forming a Magic Square |
